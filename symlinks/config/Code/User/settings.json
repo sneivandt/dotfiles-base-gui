@@ -13,6 +13,7 @@
     "extensions.ignoreRecommendations": true,
     "files.autoSave": "onFocusChange",
     "git.detectSubmodules": true,
+    "git.detectSubmodulesLimit": 100,
     "powershell.integratedConsole.showOnStartup": false,
     "powershell.startAutomatically": false,
     "search.location": "panel",
@@ -22,5 +23,5 @@
     "window.title": "${dirty}${activeEditorLong}${separator}${rootName}${separator}${appName}",
     "window.zoomLevel": 0,
     "workbench.startupEditor": "none",
-    "workbench.tips.enabled": false
+    "workbench.tips.enabled": false   
 }
