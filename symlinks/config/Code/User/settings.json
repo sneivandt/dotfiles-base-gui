@@ -1,28 +1,47 @@
 {    
     "breadcrumbs.enabled": true,
+    
+    "cmake.configureOnOpen": false,
+
     "debug.inlineValues": true,
+    "debug.toolBarLocation": "docked",
+    
     "diffEditor.renderSideBySide": false,
+
     "docker.showExplorer": false,
+    
     "editor.fontFamily": "'Source Code Pro', 'Droid Sans Mono', 'monospace'",
     "editor.fontLigatures": true,
     "editor.renderLineHighlight": "gutter",
     "editor.minimap.showSlider": "always",
     "editor.wordWrap": "on",
+
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
+
     "extensions.ignoreRecommendations": true,
+
     "files.autoSave": "onFocusChange",
+
     "git.detectSubmodules": true,
     "git.detectSubmodulesLimit": 100,
+
     "github.username": "sneivandt",
+    
     "powershell.integratedConsole.showOnStartup": false,
     "powershell.startAutomatically": false,
+
     "search.location": "panel",
+
     "team.showWelcomeMessage": false,
+
     "update.channel": "none",
+
     "window.openFoldersInNewWindow": "on",
     "window.title": "${dirty}${activeEditorLong}${separator}${rootName}${separator}${appName}",
+    "window.titleBarStyle": "native",
     "window.zoomLevel": 0,
+
     "workbench.startupEditor": "none",
     "workbench.tips.enabled": false
 }
