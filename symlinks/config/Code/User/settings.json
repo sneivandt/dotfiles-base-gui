@@ -13,6 +13,7 @@
     "editor.fontFamily": "'Source Code Pro', 'Droid Sans Mono', 'monospace'",
     "editor.fontLigatures": true,
     "editor.renderLineHighlight": "gutter",
+    "editor.renderWhitespace": "all",
     "editor.minimap.showSlider": "always",
     "editor.wordWrap": "on",
 
@@ -29,6 +30,7 @@
     "github.username": "sneivandt",
     
     "powershell.integratedConsole.showOnStartup": false,
+    "powershell.sideBar.CommandExplorerVisibility": false,
     "powershell.startAutomatically": false,
 
     "search.location": "panel",
