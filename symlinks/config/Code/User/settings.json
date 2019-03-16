@@ -34,10 +34,12 @@
     "powershell.startAutomatically": false,
 
     "search.location": "panel",
+    "search.showLineNumbers": true,
+    "search.smartCase": true,
 
     "team.showWelcomeMessage": false,
 
-    "update.channel": "none",
+    "update.mode": "none",
 
     "window.openFoldersInNewWindow": "on",
     "window.title": "${dirty}${activeEditorLong}${separator}${rootName}${separator}${appName}",
