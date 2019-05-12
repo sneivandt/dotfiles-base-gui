@@ -24,6 +24,7 @@
 
     "files.autoSave": "onFocusChange",
 
+    "git.defaultCloneDirectory": "~/src",
     "git.detectSubmodules": true,
     "git.detectSubmodulesLimit": 100,
 
@@ -47,5 +48,6 @@
     "window.zoomLevel": 0,
 
     "workbench.startupEditor": "none",
-    "workbench.tips.enabled": false
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.tips.enabled": false,
 }
