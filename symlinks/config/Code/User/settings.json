@@ -13,8 +13,9 @@
     "editor.fontFamily": "'Source Code Pro', 'Droid Sans Mono', 'monospace'",
     "editor.fontLigatures": true,
     "editor.renderLineHighlight": "gutter",
-    "editor.renderWhitespace": "all",
+    "editor.renderWhitespace": "boundary",
     "editor.minimap.showSlider": "always",
+    "editor.suggestSelection": "first",
     "editor.wordWrap": "on",
 
     "explorer.confirmDelete": false,
@@ -41,6 +42,8 @@
     "team.showWelcomeMessage": false,
 
     "update.mode": "none",
+
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 
     "window.openFoldersInNewWindow": "on",
     "window.title": "${dirty}${activeEditorLong}${separator}${rootName}${separator}${appName}",
