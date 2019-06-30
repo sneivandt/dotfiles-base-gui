@@ -1,15 +1,15 @@
-{    
+{
     "breadcrumbs.enabled": true,
-    
+
     "cmake.configureOnOpen": false,
 
     "debug.inlineValues": true,
     "debug.toolBarLocation": "docked",
-    
+
     "diffEditor.renderSideBySide": false,
 
     "docker.showExplorer": false,
-    
+
     "editor.fontFamily": "'Source Code Pro', 'Droid Sans Mono', 'monospace'",
     "editor.fontLigatures": true,
     "editor.renderLineHighlight": "gutter",
