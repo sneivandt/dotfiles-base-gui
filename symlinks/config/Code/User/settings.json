@@ -41,6 +41,8 @@
 
     "team.showWelcomeMessage": false,
 
+    "terminal.integrated.inheritEnv": false,
+
     "update.mode": "none",
 
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
@@ -51,6 +53,5 @@
     "window.zoomLevel": 0,
 
     "workbench.startupEditor": "none",
-    "workbench.statusBar.feedback.visible": false,
     "workbench.tips.enabled": false,
 }
