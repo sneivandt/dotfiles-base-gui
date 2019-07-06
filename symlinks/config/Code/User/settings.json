@@ -41,8 +41,6 @@
 
     "team.showWelcomeMessage": false,
 
-    "terminal.integrated.inheritEnv": false,
-
     "update.mode": "none",
 
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
