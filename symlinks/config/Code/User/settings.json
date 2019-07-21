@@ -8,8 +8,6 @@
 
     "diffEditor.renderSideBySide": false,
 
-    "docker.showExplorer": false,
-
     "editor.fontFamily": "'Source Code Pro', 'Droid Sans Mono', 'monospace'",
     "editor.fontLigatures": true,
     "editor.renderLineHighlight": "gutter",
