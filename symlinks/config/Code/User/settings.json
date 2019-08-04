@@ -1,4 +1,6 @@
 {
+    "azureFunctions.projectLanguage": "C#",
+
     "breadcrumbs.enabled": true,
 
     "cmake.configureOnOpen": false,
@@ -10,6 +12,7 @@
 
     "editor.fontFamily": "'Source Code Pro', 'Droid Sans Mono', 'monospace'",
     "editor.fontLigatures": true,
+    "editor.renderControlCharacters": true,
     "editor.renderLineHighlight": "gutter",
     "editor.renderWhitespace": "boundary",
     "editor.minimap.showSlider": "always",
