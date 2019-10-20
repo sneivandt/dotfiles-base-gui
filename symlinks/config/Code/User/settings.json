@@ -39,10 +39,15 @@
     "search.location": "panel",
     "search.showLineNumbers": true,
     "search.smartCase": true,
+    "search.useGlobalIgnoreFiles": true,
 
     "team.showWelcomeMessage": false,
 
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+
     "update.mode": "none",
+    "update.showReleaseNotes": false,
 
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 
@@ -51,6 +56,7 @@
     "window.titleBarStyle": "native",
     "window.zoomLevel": 0,
 
+    "workbench.activityBar.visible": true,
     "workbench.startupEditor": "none",
     "workbench.tips.enabled": false,
 }
