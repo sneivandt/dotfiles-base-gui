@@ -33,12 +33,22 @@
     "git.detectSubmodulesLimit": 100,
 
     "github.username": "sneivandt",
-    
+
+    "liveshare.autoShareServers": false,
+    "liveshare.autoShareTerminals": false,
+    "liveshare.codeLens": false,
+    "liveshare.guestApprovalRequired": true,
+    "liveshare.nameTagVisibility": "Always",
+    "liveshare.openSharedServers": false,
+    "liveshare.populateGitCoAuthors": "never",
+    "liveshare.presence": false,
+    "liveshare.showInStatusBar": "whileCollaborating",
+    "liveshare.showReadOnlyUsersInEditor": "always",
+
     "powershell.integratedConsole.showOnStartup": false,
     "powershell.sideBar.CommandExplorerVisibility": false,
     "powershell.startAutomatically": false,
 
-    "search.location": "panel",
     "search.showLineNumbers": true,
     "search.smartCase": true,
     "search.useGlobalIgnoreFiles": true,
