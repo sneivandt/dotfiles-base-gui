@@ -10,6 +10,7 @@
     "debug.inlineValues": true,
     "debug.toolBarLocation": "docked",
 
+    "diffEditor.ignoreTrimWhitespace": false,
     "diffEditor.renderSideBySide": false,
 
     "editor.fontFamily": "'Source Code Pro', 'Droid Sans Mono', 'monospace'",
