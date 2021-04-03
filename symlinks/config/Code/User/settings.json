@@ -1,6 +1,4 @@
 {
-    "azureFunctions.projectLanguage": "C#",
-
     "breadcrumbs.enabled": true,
 
     "cmake.configureOnOpen": false,
@@ -18,7 +16,7 @@
     "editor.renderControlCharacters": true,
     "editor.renderLineHighlight": "gutter",
     "editor.renderWhitespace": "boundary",
-    "editor.minimap.showSlider": "always",
+    "editor.minimap.enabled": false,
     "editor.suggestSelection": "first",
     "editor.wordWrap": "on",
 
@@ -34,6 +32,8 @@
     "git.detectSubmodulesLimit": 100,
 
     "github.username": "sneivandt",
+
+    "go.toolsManagement.autoUpdate": true,
 
     "liveshare.autoShareServers": false,
     "liveshare.autoShareTerminals": false,
@@ -53,8 +53,6 @@
     "search.showLineNumbers": true,
     "search.smartCase": true,
     "search.useGlobalIgnoreFiles": true,
-
-    "team.showWelcomeMessage": false,
 
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
