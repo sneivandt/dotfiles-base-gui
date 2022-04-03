@@ -65,7 +65,6 @@
     "window.openFoldersInNewWindow": "on",
     "window.title": "${dirty}${activeEditorLong}${separator}${rootName}${separator}${appName}",
     "window.titleBarStyle": "native",
-    "window.zoomLevel": 0,
 
     "workbench.activityBar.visible": true,
     "workbench.startupEditor": "none",
