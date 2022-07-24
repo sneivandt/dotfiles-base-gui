@@ -1,11 +1,17 @@
 {
+    "audioCues.lineHasBreakpoint": "off",
+    "audioCues.lineHasError": "off",
+    "audioCues.lineHasInlineSuggestion": "off",
+    "audioCues.noInlayHints": "off",
+    "audioCues.onDebugBreak": "off",
+
     "breadcrumbs.enabled": true,
 
     "cmake.configureOnOpen": false,
 
     "C_Cpp.intelliSenseCachePath": "~/.cache/vscode-cpptools",
 
-    "debug.inlineValues": true,
+    "debug.inlineValues": "on",
     "debug.toolBarLocation": "docked",
 
     "diffEditor.ignoreTrimWhitespace": false,
@@ -30,11 +36,19 @@
     "git.defaultCloneDirectory": "~/src",
     "git.detectSubmodules": true,
     "git.detectSubmodulesLimit": 100,
+    "git.showActionButton": {
+        "commit": false,
+        "publish": false,
+        "sync": false
+    },
+    "git.showCommitInput": false,
 
     "github.username": "sneivandt",
 
     "go.toolsManagement.autoUpdate": true,
 
+    "liveshare.accessibility.soundsEnabled": false,
+    "liveshare.accessibility.soundVolume": 0,
     "liveshare.autoShareServers": false,
     "liveshare.autoShareTerminals": false,
     "liveshare.codeLens": false,
@@ -50,12 +64,13 @@
     "powershell.sideBar.CommandExplorerVisibility": false,
     "powershell.startAutomatically": false,
 
+    "redhat.telemetry.enabled": false,
+
     "search.showLineNumbers": true,
     "search.smartCase": true,
     "search.useGlobalIgnoreFiles": true,
 
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
+    "telemetry.telemetryLevel": "off",
 
     "update.mode": "none",
     "update.showReleaseNotes": false,
