@@ -60,6 +60,11 @@
     "liveshare.showInStatusBar": "whileCollaborating",
     "liveshare.showReadOnlyUsersInEditor": "always",
 
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "right"
+    },
+
     "powershell.integratedConsole.showOnStartup": false,
     "powershell.sideBar.CommandExplorerVisibility": false,
     "powershell.startAutomatically": false,
@@ -82,6 +87,7 @@
     "window.titleBarStyle": "native",
 
     "workbench.activityBar.visible": true,
+    "workbench.colorTheme": "Default Dark+",
     "workbench.startupEditor": "none",
     "workbench.tips.enabled": false,
 }
