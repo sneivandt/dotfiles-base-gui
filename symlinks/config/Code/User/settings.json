@@ -77,6 +77,11 @@
 
     "telemetry.telemetryLevel": "off",
 
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.enableBell": false,
+    "terminal.integrated.shellIntegration.decorationsEnabled": false,
+    "terminal.integrated.tabs.showActions": "never",
+
     "update.mode": "none",
     "update.showReleaseNotes": false,
 
@@ -88,6 +93,7 @@
 
     "workbench.activityBar.visible": true,
     "workbench.colorTheme": "Default Dark+",
+    "workbench.iconTheme": "vs-seti",
     "workbench.startupEditor": "none",
     "workbench.tips.enabled": false,
 }
