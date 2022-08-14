@@ -1,5 +1,6 @@
 {
     "audioCues.lineHasBreakpoint": "off",
+    "audioCues.lineHasFoldedArea": "off",
     "audioCues.lineHasError": "off",
     "audioCues.lineHasInlineSuggestion": "off",
     "audioCues.noInlayHints": "off",
@@ -10,6 +11,8 @@
     "cmake.configureOnOpen": false,
 
     "C_Cpp.intelliSenseCachePath": "~/.cache/vscode-cpptools",
+
+    "cSpell.diagnosticLevel": "Hint",
 
     "debug.inlineValues": "on",
     "debug.toolBarLocation": "docked",
@@ -80,6 +83,7 @@
     "terminal.integrated.defaultProfile.linux": "zsh",
     "terminal.integrated.enableBell": false,
     "terminal.integrated.shellIntegration.decorationsEnabled": false,
+    "terminal.integrated.shellIntegration.enabled": false,
     "terminal.integrated.tabs.showActions": "never",
 
     "update.mode": "none",
