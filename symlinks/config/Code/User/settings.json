@@ -5,6 +5,7 @@
     "audioCues.lineHasInlineSuggestion": "off",
     "audioCues.noInlayHints": "off",
     "audioCues.onDebugBreak": "off",
+    "audioCues.volume": 0,
 
     "breadcrumbs.enabled": true,
 
@@ -91,6 +92,7 @@
 
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 
+    "window.dialogStyle": "custom",
     "window.openFoldersInNewWindow": "on",
     "window.title": "${dirty}${activeEditorLong}${separator}${rootName}${separator}${appName}",
     "window.titleBarStyle": "native",
