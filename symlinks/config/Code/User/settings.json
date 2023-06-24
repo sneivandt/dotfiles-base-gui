@@ -19,13 +19,13 @@
     "debug.toolBarLocation": "docked",
 
     "diffEditor.ignoreTrimWhitespace": false,
-    "diffEditor.renderSideBySide": false,
 
     "editor.fontFamily": "'Source Code Pro', 'Droid Sans Mono', 'monospace'",
     "editor.fontLigatures": true,
     "editor.renderControlCharacters": true,
     "editor.renderLineHighlight": "gutter",
     "editor.renderWhitespace": "boundary",
+    "editor.inlineSuggest.enabled": true,
     "editor.minimap.enabled": false,
     "editor.suggestSelection": "first",
     "editor.wordWrap": "on",
