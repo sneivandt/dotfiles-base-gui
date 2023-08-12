@@ -10,6 +10,7 @@
     "breadcrumbs.enabled": true,
 
     "cmake.configureOnOpen": false,
+    "cmake.ignoreCMakeListsMissing": true,
 
     "C_Cpp.intelliSenseCachePath": "~/.cache/vscode-cpptools",
 
@@ -19,6 +20,9 @@
     "debug.toolBarLocation": "docked",
 
     "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderSideBySide": false,
+
+    "dotnetAcquisitionExtension.enableTelemetry": false,
 
     "editor.fontFamily": "'Source Code Pro', 'Droid Sans Mono', 'monospace'",
     "editor.fontLigatures": true,
@@ -83,7 +87,7 @@
 
     "terminal.integrated.defaultProfile.linux": "zsh",
     "terminal.integrated.enableBell": false,
-    "terminal.integrated.shellIntegration.decorationsEnabled": false,
+    "terminal.integrated.shellIntegration.decorationsEnabled": "never",
     "terminal.integrated.shellIntegration.enabled": false,
     "terminal.integrated.tabs.showActions": "never",
 
@@ -98,7 +102,7 @@
     "window.titleBarStyle": "native",
 
     "workbench.activityBar.visible": true,
-    "workbench.colorTheme": "Default Dark+",
+    "workbench.colorTheme": "Visual Studio Dark",
     "workbench.iconTheme": "vs-seti",
     "workbench.startupEditor": "none",
     "workbench.tips.enabled": false,
