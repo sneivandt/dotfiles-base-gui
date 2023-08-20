@@ -24,7 +24,7 @@
 
     "dotnetAcquisitionExtension.enableTelemetry": false,
 
-    "editor.fontFamily": "'Source Code Pro', 'Droid Sans Mono', 'monospace'",
+    "editor.fontFamily": "'Source Code Pro', 'Droid Sans Mono', 'Consolas', 'monospace'",
     "editor.fontLigatures": true,
     "editor.renderControlCharacters": true,
     "editor.renderLineHighlight": "gutter",
@@ -96,10 +96,8 @@
 
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 
-    "window.dialogStyle": "custom",
     "window.openFoldersInNewWindow": "on",
     "window.title": "${dirty}${activeEditorLong}${separator}${rootName}${separator}${appName}",
-    "window.titleBarStyle": "native",
 
     "workbench.activityBar.visible": true,
     "workbench.colorTheme": "Visual Studio Dark",
