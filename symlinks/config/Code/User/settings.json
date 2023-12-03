@@ -56,6 +56,9 @@
 
     "extensions.ignoreRecommendations": true,
 
+    "files.associations": {
+        "*.json": "jsonc",
+    },
     "files.autoSave": "onFocusChange",
 
     "git.defaultCloneDirectory": "~/src",
