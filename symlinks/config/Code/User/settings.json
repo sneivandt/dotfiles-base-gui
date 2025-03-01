@@ -132,6 +132,8 @@
 
     "redhat.telemetry.enabled": false,
 
+    "scm.showHistoryGraph": false,
+
     "search.showLineNumbers": true,
     "search.smartCase": true,
     "search.useGlobalIgnoreFiles": true,
