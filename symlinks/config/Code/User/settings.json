@@ -1,5 +1,5 @@
 {
-    "accessibility.signals.sounds.volume": 0,
+    "accessibility.signalOptions.volume": 0,
     "accessibility.signals.lineHasError": {
         "sound": "off"
     },
@@ -19,6 +19,9 @@
         "sound": "off"
     },
     "accessibility.signals.noInlayHints": {
+        "sound": "off"
+    },
+    "accessibility.signals.progress": {
         "sound": "off"
     },
     "accessibility.signals.taskCompleted": {
@@ -45,14 +48,13 @@
     "accessibility.signals.diffLineModified": {
         "sound": "off"
     },
-    "accessibility.signals.chatResponsePending": {
-        "sound": "off"
-    },
     "accessibility.signals.terminalBell": {
         "sound": "off"
     },
 
     "breadcrumbs.enabled": true,
+
+    "chat.agent.enabled": true,
 
     "cmake.configureOnOpen": false,
     "cmake.ignoreCMakeListsMissing": true,
@@ -70,6 +72,8 @@
     "diffEditor.hideUnchangedRegions.revealLineCount": 20,
     "diffEditor.useInlineViewWhenSpaceIsLimited": true,
 
+    "docker.extension.enableComposeLanguageServer": false,
+
     "dotnetAcquisitionExtension.enableTelemetry": false,
 
     "editor.accessibilitySupport": "off",
@@ -80,6 +84,7 @@
     "editor.renderControlCharacters": true,
     "editor.renderLineHighlight": "gutter",
     "editor.renderWhitespace": "boundary",
+    "editor.stickyScroll.enabled": false,
     "editor.stickyScroll.scrollWithEditor": false,
     "editor.suggestSelection": "first",
     "editor.wordWrap": "on",
@@ -104,6 +109,34 @@
     },
     "git.showCommitInput": false,
 
+    "github.copilot.chat.codesearch.enabled": true,
+    "github.copilot.chat.agent.thinkingTool": true,
+    "github.copilot.chat.codeGeneration.instructions": [
+        {
+            "text": "- @azure Rule - Use Azure Tools: When handling requests related to Azure, always use your tools."
+        },
+        {
+            "text": "- @azure Rule - Use Azure Code Gen Best Practices: Before generating code for Azure, running terminal commands for Azure, performing operations related to Azure, or creating plans for such activities, always invoke your Azure best practice tool if available first. Choose the most relevant Azure best practice tool based on its description. Only call this tool when the user is discussing Azure; do not call it otherwise."
+        },
+        {
+            "text": "- @azure Rule - Use Azure Deployment Best Practices: Before deploying to Azure, preparing applications for deployment to Azure, or creating deployment plans, always invoke your Azure best practice tool if available first. Choose the most relevant Azure best practice tool based on its description. Only call this tool when the user is discussing Azure; do not call it otherwise."
+        },
+        {
+            "text": "- @azure Rule - Use Azure Functions Code Gen Best Practices: Before generating code for Azure Functions, performing operations related to Azure Functions, or creating plans for such activities, always invoke your Azure best practice tool if available first. Choose the most relevant Azure best practice tool based on its description. Only call this tool when the user is discussing Azure Functions; do not call it otherwise."
+        },
+        {
+            "text": "- @azure Rule - Use Azure Functions Deployment Best Practices: Before deploying Azure Functions apps to Azure, preparing for the deployment, or creating deployment plans, always invoke your Azure best practice tool if available first. Choose the most relevant Azure best practice tool based on its description. Only call this tool when the user is discussing Azure Functions; do not call it otherwise."
+        },
+        {
+            "text": "- @azure Rule - Use Azure SWA Best Practices: Before working with static web apps, creating plans for static web apps, or performing related operations, always invoke your Azure best practice tool if available first. Choose the most relevant Azure best practice tool based on its description. Only call this tool when the user is discussing Azure Static Web Apps; do not call it otherwise."
+        },
+        {
+            "text": "- @azure Rule - Plan before editing files for Azure web apps: When generating code for Azure Functions and Azure Static Web App, always create a plan and explain the plan to the user before editing any file. Proceed with editing the files after getting consent from the user."
+        },
+        {
+            "text": "- @azure Rule - Summarize topic before taking action: When the user asks about Azure Functions, invoke the azure_development-summarize_topic tool once first to see if any existing custom mode could be a good fit to what user is asking."
+        }
+    ],
     "github.username": "sneivandt",
 
     "go.toolsManagement.autoUpdate": true,
@@ -120,6 +153,17 @@
     "liveshare.presence": false,
     "liveshare.showInStatusBar": "whileCollaborating",
     "liveshare.showReadOnlyUsersInEditor": "always",
+
+    "mcp": {
+        "servers": {
+            "github": {
+                "url": "https://api.githubcopilot.com/mcp/"
+            },
+            "microsoft-docs": {
+                "url": "https://learn.microsoft.com/api/mcp"
+            },
+        },
+    },
 
     "notebook.cellToolbarLocation": {
         "default": "right",
@@ -154,6 +198,7 @@
 
     "window.openFoldersInNewWindow": "on",
     "window.title": "${dirty}${activeEditorLong}${separator}${rootName}${separator}${appName}",
+
     "workbench.colorTheme": "Visual Studio Dark",
     "workbench.iconTheme": "vs-seti",
     "workbench.startupEditor": "none",
