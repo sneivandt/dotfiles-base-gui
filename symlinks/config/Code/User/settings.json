@@ -51,33 +51,22 @@
     "accessibility.signals.terminalBell": {
         "sound": "off"
     },
-
-    "audioCues.enabled": "off",
-
     "breadcrumbs.enabled": true,
-
     "chat.agent.enabled": true,
-
     "cmake.configureOnOpen": false,
     "cmake.ignoreCMakeListsMissing": true,
-
     "C_Cpp.intelliSenseCachePath": "~/.cache/vscode-cpptools",
-
     "cSpell.diagnosticLevel": "Hint",
-
     "debug.inlineValues": "on",
     "debug.toolBarLocation": "docked",
-
     "diffEditor.experimental.showMoves": true,
     "diffEditor.hideUnchangedRegions.contextLineCount": 10,
     "diffEditor.hideUnchangedRegions.minimumLineCount": 10,
     "diffEditor.hideUnchangedRegions.revealLineCount": 20,
     "diffEditor.useInlineViewWhenSpaceIsLimited": true,
-
     "docker.extension.enableComposeLanguageServer": false,
-
     "dotnetAcquisitionExtension.enableTelemetry": false,
-
+    "editor.bracketPairColorization.enabled": true,
     "editor.accessibilitySupport": "off",
     "editor.fontFamily": "'Source Code Pro', 'Droid Sans Mono', 'Consolas', 'monospace'",
     "editor.fontLigatures": true,
@@ -90,17 +79,13 @@
     "editor.stickyScroll.scrollWithEditor": false,
     "editor.suggestSelection": "first",
     "editor.wordWrap": "on",
-
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
-
     "extensions.ignoreRecommendations": true,
-
     "files.associations": {
         "*.json": "jsonc",
     },
     "files.autoSave": "onFocusChange",
-
     "git.defaultCloneDirectory": "~/src",
     "git.detectSubmodules": true,
     "git.detectSubmodulesLimit": 100,
@@ -110,13 +95,10 @@
         "sync": false
     },
     "git.showCommitInput": false,
-
     "github.copilot.chat.codesearch.enabled": true,
     "github.copilot.chat.agent.thinkingTool": true,
     "github.username": "sneivandt",
-
     "go.toolsManagement.autoUpdate": true,
-
     "liveshare.accessibility.soundsEnabled": false,
     "liveshare.accessibility.soundVolume": 0,
     "liveshare.autoShareServers": false,
@@ -129,45 +111,32 @@
     "liveshare.presence": false,
     "liveshare.showInStatusBar": "whileCollaborating",
     "liveshare.showReadOnlyUsersInEditor": "always",
-
     "notebook.cellToolbarLocation": {
         "default": "right",
         "jupyter-notebook": "right"
     },
-
     "notifications.excludeList": [
         "*"
     ],
-
     "powershell.integratedConsole.showOnStartup": false,
     "powershell.sideBar.CommandExplorerVisibility": false,
     "powershell.startAutomatically": false,
-
     "redhat.telemetry.enabled": false,
-
     "scm.showHistoryGraph": false,
-
     "search.showLineNumbers": true,
     "search.smartCase": true,
     "search.useGlobalIgnoreFiles": true,
-
     "telemetry.telemetryLevel": "off",
-
     "terminal.integrated.defaultProfile.linux": "zsh",
     "terminal.integrated.enablePersistentSessions": false,
     "terminal.integrated.enableVisualBell": false,
     "terminal.integrated.shellIntegration.decorationsEnabled": "never",
     "terminal.integrated.shellIntegration.enabled": true,
     "terminal.integrated.tabs.showActions": "never",
-
     "update.mode": "none",
     "update.showReleaseNotes": false,
-
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-
     "window.openFoldersInNewWindow": "on",
     "window.title": "${dirty}${activeEditorLong}${separator}${rootName}${separator}${appName}",
-
     "workbench.colorTheme": "Visual Studio Dark",
     "workbench.iconTheme": "vs-seti",
     "workbench.startupEditor": "none",
