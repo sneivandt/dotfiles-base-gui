@@ -53,6 +53,7 @@
     },
     "breadcrumbs.enabled": true,
     "chat.agent.enabled": true,
+    "chat.agent.maxRequests": 50,
     "cmake.configureOnOpen": false,
     "cmake.ignoreCMakeListsMissing": true,
     "C_Cpp.intelliSenseCachePath": "~/.cache/vscode-cpptools",
